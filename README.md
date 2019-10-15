@@ -16,19 +16,19 @@ Below are the commands to setup application.
 
 ## Commands to build and setup application
 
-  *Build Docker image for node 
+  * Build Docker image for node 
   
   ```
   docker build -f nodedockerfile -t node-12.5.0:redis .
   ```
   
-  *Build Docker image for nginx
+  * Build Docker image for nginx
   
   ```
   docker build -f nginxdockerfile -t nginx-1.16.0:nodeapp .
   ```
   
-  *Run all 3 apps
+  * Run all 3 apps
   
   ```
   docker run -it -d --name my-redis-app --network host redis:5.0.4
@@ -38,7 +38,7 @@ Below are the commands to setup application.
   ```
 
  
-  #Commands to get versions of nginx/nodejs/redis
+  * Commands to get versions of nginx/nodejs/redis
   
   ```
   docker exec -it my-nginx-app nginx -v
@@ -46,14 +46,14 @@ Below are the commands to setup application.
   docker exec -it my-redis-app redis-server --version
   ```
 
-  # Multiple hits on the application
+  * Multiple hits on the application
   
   ```
   for i in {1..25}; do curl localhost; done
   
   ```
         
-  # command to get the count of the visits from redis server
+  * command to get the count of the visits from redis server
   
   ```
   redis-cli GET visits

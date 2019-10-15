@@ -12,11 +12,13 @@ This is simple nodejs applicaton which counts the number of visits to the page a
 
 Application will be running as 3 different containers in server and containers can access each other with localhost/server-ip as we use HOST network while docker run, which also allows us to access the application running inside the container from server itself.
 
-Custom images are built to make modification by pulling offical images from docker hub, we have two dockerfiles (nginxdockerfile, nodedockerfile) to build images. please go through the dockerfiles.
+Custom images are built to make some required modification by pulling offical images from docker hub, we have two dockerfiles (nginxdockerfile, nodedockerfile) to build images. please go through the dockerfiles for more info.
 
 Below are the commands to setup application.
 
 ## Commands to build and setup application
+
+  Please clone the git repo and run the commands from the same repository in your server and at the end you will be able to access the application on http://localhost
 
   * Build Docker image for node 
   

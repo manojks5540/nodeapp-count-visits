@@ -1,4 +1,4 @@
-# nodeapp-count-visits
+# Nodeapp-count-visits
 
 ## Introduction
 
@@ -11,7 +11,9 @@ This is simple nodejs applicaton which counts the number of visits to the page a
 ## How it Works?
 
 Application will be running as 3 different containers in server and containers can access each other with localhost/server-ip as we use HOST network while docker run, which also allows us to access the application running inside the container from server itself.
+
 Custom images are built to make modification by pulling offical images from docker hub, we have two dockerfiles (nginxdockerfile, nodedockerfile) to build images. please go through the dockerfiles.
+
 Below are the commands to setup application.
 
 ## Commands to build and setup application

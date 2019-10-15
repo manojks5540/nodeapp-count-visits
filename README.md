@@ -57,7 +57,7 @@ Below are the commands to setup application.
   
   ```
         
-  * command to get the count of the visits from redis server
+  * Command to get the count of the visits from redis server
   
   ```
   redis-cli GET visits

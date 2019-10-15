@@ -1,0 +1,5 @@
+FROM node:12.5.0
+
+RUN npm install redis
+
+COPY myscript.js /usr/src/app/

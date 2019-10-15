@@ -2,7 +2,7 @@
 
 ## Introduction.
 
-This is simple nodejs applicaton which counts the number of visits to the page and stores the same in redis-server and nginx is used as reverse proxy to access on port 80.
+This is a simple nodejs applicaton which counts the number of visits to the page and stores the count in local redis-server and nginx is used as reverse proxy to access application.
 
 ## Prerequisites.
 

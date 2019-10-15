@@ -1,10 +1,10 @@
-# Nodeapp-count-visits
+# Nodeapp-count-visits.
 
-## Introduction
+## Introduction.
 
 This is simple nodejs applicaton which counts the number of visits to the page and stores the same in redis-server and nginx is used as reverse proxy to access on port 80.
 
-## Prerequisites
+## Prerequisites.
 
 * Docker daemon on standalone server.
 
@@ -16,7 +16,7 @@ Custom images are built to make some required modification by pulling offical im
 
 Below are the commands to setup application.
 
-## Commands to build and setup application
+## Commands to build and setup application.
 
   Please clone the git repo and run the commands from the same repository in your server and at the end you will be able to access the application on http://localhost
 
@@ -64,4 +64,10 @@ Below are the commands to setup application.
   
   ```
 
+## References.
 
+https://www.c-sharpcorner.com/UploadFile/dacca2/node-js-in-action-implement-visit-counter-in-node-js/
+
+https://www.sitepoint.com/using-redis-node-js/
+
+https://github.com/nodejs/docker-node/blob/master/README.md#how-to-use-this-image

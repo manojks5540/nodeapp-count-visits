@@ -1,3 +1,5 @@
 FROM nginx:1.16.0
 
+# Copying the configuration to proxy pass nodejs app.
+
 COPY default.conf /etc/nginx/conf.d/default.conf

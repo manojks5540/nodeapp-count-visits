@@ -1,5 +1,9 @@
 FROM node:12.5.0
 
+# Installing the redis utility
+
 RUN npm install redis
+
+# Copying the nodejs script to working directory to run the same.
 
 COPY myscript.js /usr/src/app/
